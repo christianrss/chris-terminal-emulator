@@ -8,6 +8,10 @@
 #include <stdbool.h>
 #include <memory.h>
 
+#define LF_X11
+#define LF_RUNARA
+#include <leif/leif.h>
+
 static int32_t masterfd;
 
 int32_t utf8decode(const char *s, uint32_t *out_cp) {
